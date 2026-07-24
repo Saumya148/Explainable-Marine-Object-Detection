@@ -1,30 +1,39 @@
-# Explainable Marine Object Detection
+# Explainable AI-Based Marine Object Detection and Tracking System
 
 ## Overview
-Marine object detection using YOLOv8 for underwater ecosystem monitoring.
+
+This project is an end-to-end marine object detection and tracking system developed during my summer internship at IIIT Allahabad.
+
+The system detects marine objects from underwater videos using YOLOv8n, tracks them using ByteTrack, provides lightweight Explainable AI visualizations, and generates TXT and PDF reports through an interactive Streamlit dashboard.
+
+## Features
+
+- Marine object detection using YOLOv8n
+- Multi-object tracking using ByteTrack
+- Explainable AI heatmaps
+- Streamlit web application
+- TXT report generation
+- PDF report generation
+- Object statistics and visualization
 
 ## Technologies
+
 - Python
-- YOLOv8
+- YOLOv8n
 - PyTorch
 - OpenCV
 - ByteTrack
+- Streamlit
+- NumPy
+- Matplotlib
+- ReportLab
 
-## Objects Detected
-- Fish
-- Diver
-- Reef
-- Plants
-- Robot
-- Wreck
-- Seafloor
+## Dataset
 
-## Performance
+SUIM (Segmented Underwater Image Dataset)
 
-Precision : 70%
+## Run
 
-Recall : 51%
-
-mAP@50 : 55.5%
-
-mAP@50-95 : 40%
+```bash
+streamlit run app.py
+```
