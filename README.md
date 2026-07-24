@@ -173,7 +173,7 @@ Marine-Object-Detection-System
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Marine-Object-Detection-System.git
+git clone https://github.com/Saumya148/Explainable-Marine-Object-Detection-System.git
 ```
 
 ### Install Dependencies
