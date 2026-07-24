@@ -1,0 +1,15 @@
+=================================================================
+UNDERWATER OBJECT DETECTION REPORT
+=================================================================
+
+Frames Processed : 159
+
+Unique Object Count
+Fish         : 78
+Reefs        : 1
+
+Total Unique Objects : 79
+
+Average Confidence
+Reefs        : 91.65%
+Fish         : 46.67%
